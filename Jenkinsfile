@@ -36,7 +36,7 @@ pipeline {
                }
             }
         }
-        stage('Docker BUild') {
+        stage('Docker BUILD') {
             steps {
                script{
                  withAWS(region: 'us-east-1', credentials: 'aws-creds'){

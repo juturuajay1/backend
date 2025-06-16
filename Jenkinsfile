@@ -3,7 +3,7 @@ pipeline {
     environment { 
         PROJECT = 'EXPENSE'
         COMPONENT = 'backend' 
-        appVersion = '1.'
+        appVersion = ''
     }
     options {
         disableConcurrentBuilds()
